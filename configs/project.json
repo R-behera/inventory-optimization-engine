@@ -1,0 +1,48 @@
+{
+  "slug": "inventory-optimization-engine",
+  "title": "Inventory Optimization Engine",
+  "project_type": "analytics",
+  "domain": "Retail Operations",
+  "summary": "Recommend inventory actions from velocity, stockout, and demand signals across locations.",
+  "tags": [
+    "inventory",
+    "optimization",
+    "retail"
+  ],
+  "accent": "#ff6b35",
+  "dashboard_metrics": [
+    {
+      "label": "North Star",
+      "value": "81",
+      "delta": "+7.1%"
+    },
+    {
+      "label": "Variance",
+      "value": "13%",
+      "delta": "-1.8%"
+    },
+    {
+      "label": "Decision Cycle",
+      "value": "2d",
+      "delta": "-0.5d"
+    }
+  ],
+  "sample_features": {
+    "current_conversion": 0.16,
+    "baseline_conversion": 0.12,
+    "volume": 1800,
+    "segment": "enterprise"
+  },
+  "sample_metrics": {
+    "acquisition": 37.4,
+    "activation": 38.0,
+    "retention": 50.8,
+    "revenue": 80.8
+  },
+  "knowledge_base": [
+    "Inventory Optimization Engine is positioned as a Retail Operations starter that emphasizes fast iteration, clear documentation, and production-friendly interfaces.",
+    "The primary value proposition is: Recommend inventory actions from velocity, stockout, and demand signals across locations.",
+    "Recommended operating model: ship a small API, add observability, validate outputs with stakeholder review, and monitor the top business KPI every week.",
+    "Typical stakeholders include analytics, operations, product, and leadership teams working on inventory, optimization, retail."
+  ]
+}
